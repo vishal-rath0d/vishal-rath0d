@@ -1,0 +1,85 @@
+apiVersion: devops.io/v1
+kind: Engineer
+
+metadata:
+  name: Vishal Rathod
+  role: DevOps Engineer
+  company: SMS-Magic (Conversive)
+  experience: ~3 years
+  location: Remote, India
+  email: vishaljanusingrathod@gmail.com
+  phone: +91 9765055747
+  linkedin: linkedin.com/in/vishalrath0d
+  website: vishal-rath0d.github.io
+  github: github.com/vishal-rath0d
+
+spec:
+  achievements:
+    ci_cd:
+      - Built 20+ automated pipelines (Jenkins, GitLab CI)
+      - Reduced deployment time by 50%
+      - Reduced deployment errors by 30%
+    
+    containerization:
+      - Dockerized 20+ services on ECS (Fargate + EC2)
+      - Reduced environment setup time by 40%
+      - Led Fargate to ECS migrations
+    
+    infrastructure:
+      - Automated provisioning with CloudFormation & Terraform
+      - Cut new environment setup time by 70%
+      - Built full AWS infra for Cube.js analytics (6+ services)
+    
+    cost_optimization:
+      - Reduced ECS cluster costs by 25%
+      - EC2 & ECS instance right-sizing
+      - Graviton migration POC
+    
+    reliability:
+      - Improved incident response time by 40%
+      - Reduced MTTD and MTTR
+      - Implemented centralized logging (CloudWatch, BetterStack, Loggly)
+    
+    security:
+      - Enforced AWS WAF rules for API protection
+      - Implemented Redis-based rate limiting
+      - Adopting DevSecOps practices
+
+  skills:
+    cloud: AWS (ECS, EC2, S3, VPC, RDS, Lambda, API Gateway, WAF, CloudFormation)
+    iac: Terraform (POCs), CloudFormation (Production)
+    cicd: Jenkins, GitLab CI, Pipeline-as-Code, Blue/Green Deployments
+    containers: Docker, AWS ECS (Fargate + EC2), Kubernetes (EKS - learning)
+    observability: CloudWatch, BetterStack, Loggly, Prometheus, Grafana
+    databases: MySQL, MongoDB, Elasticsearch, Redis, RabbitMQ
+    programming: Python, Shell, Groovy, Go (basic), React
+    security: AWS WAF, Rate Limiting, DevSecOps (in progress)
+
+  current_focus:
+    - Kubernetes & EKS (hands-on labs, cluster setup)
+    - GitOps with ArgoCD (learning workflows)
+    - DevSecOps practices (CI security, secrets management)
+    - Advanced observability (Prometheus & Grafana setup)
+
+  education:
+    - degree: PG-DAC (Advanced Computing)
+      institution: Sunbeam Institute, Pune
+      year: 2022
+      gpa: 7.3/10
+    
+    - degree: B.Tech in Biotechnology
+      institution: K.K. Wagh College, Nashik
+      year: 2021
+      gpa: 8.3/10
+
+  interests:
+    - DevSecOps & GitOps
+    - FinOps (cost optimization)
+    - Multi-cloud (Azure, GCP)
+    - Automation & scripting
+
+  contact:
+    email: vishaljanusingrathod@gmail.com
+    linkedin: linkedin.com/in/vishalrath0d
+    website: vishal-rath0d.github.io
+    github: github.com/vishal-rath0d
