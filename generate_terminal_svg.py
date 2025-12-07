@@ -39,7 +39,7 @@ YAML_START_Y = 100            # Y position where YAML content starts
 PROMPT_Y = 70                 # Y position of command prompt
 
 # Text Content
-COMMAND = "cat profile.yaml"
+COMMAND = "kubectl get engineer vishal-rathod -o yaml"
 CLEAR_COMMAND = "clear"
 TERMINAL_TITLE = "vishal@devops-engineer ~ % bash"
 YAML_FILE = "profile.yaml"

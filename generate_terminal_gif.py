@@ -85,7 +85,7 @@ def main():
     print(f"   Lines: {len(lines)}, FPS: {FPS}")
 
     # Calculate timeline
-    command = "cat profile.yaml"
+    command = "kubectl get engineer vishal-rathod -o yaml"
     cmd_time = len(command) * CHAR_SPEED
     yaml_start = cmd_time + 0.5
     yaml_end = yaml_start + len(lines) * LINE_SPEED

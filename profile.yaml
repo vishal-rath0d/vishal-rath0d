@@ -2,13 +2,24 @@ apiVersion: devops.io/v1
 kind: Engineer
 
 metadata:
-  name: Vishal Rathod
-  role: DevOps Engineer
-  company: SMS-Magic (Conversive)
-  experience: 3 years
-  location: Remote, India
+  name: vishal-rathod
+  namespace: devops-team
+  labels:
+    role: devops-engineer
+    level: mid-senior
+    focus: kubernetes
+  annotations:
+    company: "SMS-Magic (Conversive)"
+    location: "Remote, India"
+    experience: "3 years"
 
 spec:
+  profile:
+    email: vishaljanusingrathod@gmail.com
+    linkedin: linkedin.com/in/vishalrath0d
+    github: github.com/vishal-rath0d
+    website: vishal-rath0d.github.io
+
   highlights:
     - Built 20+ CI/CD pipelines (Jenkins, GitLab CI)
     - Containerized 20+ services with Docker & ECS
@@ -16,24 +27,44 @@ spec:
     - Improved incident response time by 40%
 
   skills:
-    cloud: AWS (ECS, EC2, S3, Lambda, CloudFormation)
-    iac: Terraform, CloudFormation
-    cicd: Jenkins, GitLab CI, Blue/Green Deployments
-    containers: Docker, ECS, Kubernetes (learning)
-    observability: CloudWatch, Prometheus, Grafana
-    programming: Python, Shell, Groovy
+    cloud:
+      - AWS (ECS, EC2, S3, Lambda, CloudFormation)
+    iac:
+      - Terraform
+      - CloudFormation
+    cicd:
+      - Jenkins
+      - GitLab CI
+      - Blue/Green Deployments
+    containers:
+      - Docker
+      - ECS
+      - Kubernetes (learning)
+    observability:
+      - CloudWatch
+      - Prometheus
+      - Grafana
+    programming:
+      - Python
+      - Shell
+      - Groovy
 
-  current_focus:
-    - Kubernetes & EKS
-    - GitOps with ArgoCD
-    - DevSecOps practices
+  currentFocus:
+    - name: Kubernetes & EKS
+      status: active
+    - name: GitOps with ArgoCD
+      status: learning
+    - name: DevSecOps practices
+      status: implementing
 
-  education:
-    - PG-DAC (Advanced Computing) - 2022
-    - B.Tech Biotechnology - 2021
-
-  contact:
-    email: vishaljanusingrathod@gmail.com
-    linkedin: linkedin.com/in/vishalrath0d
-    github: github.com/vishal-rath0d
-    website: vishal-rath0d.github.io
+status:
+  phase: Active
+  conditions:
+    - type: Ready
+      status: "True"
+      reason: ProductionReady
+      message: "Experienced DevOps Engineer ready for challenges"
+    - type: Learning
+      status: "True"
+      reason: ContinuousImprovement
+      message: "Actively learning Kubernetes, GitOps, and DevSecOps"
