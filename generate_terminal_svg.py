@@ -185,41 +185,43 @@ for idx, line in enumerate(lines):
 # Blinking cursor at end
 svg += f'\n<text x="{LEFT_MARGIN}" y="{y + LINE_HEIGHT}" class="text" opacity="0">'
 svg += f'<set attributeName="opacity" to="1" begin="{yaml_end}s"/>'
-svg += f'<set attributeName="opacity" to="0" begin="{blink_end}s"/>'
+# Commenting out blink end so cursor stays visible
+# svg += f'<set attributeName="opacity" to="0" begin="{blink_end}s"/>'
 svg += '<tspan class="prompt">➜ </tspan>'
 svg += '<tspan class="prompt cursor">█</tspan>'
 svg += '</text>\n\n'
 
-# "clear" command - typed character by character
-svg += f'<text x="{LEFT_MARGIN}" y="{y + LINE_HEIGHT}" class="text">'
-svg += f'<tspan class="prompt" opacity="0">'
-svg += f'<set attributeName="opacity" to="1" begin="{clear_start}s"/>'
-svg += '➜ </tspan>'
-
-# Type "clear" character by character
-for i in range(1, len(CLEAR_COMMAND) + 1):
-    t_start = clear_start + ((i-1) * CLEAR_SPEED)
-    t_end = clear_start + (i * CLEAR_SPEED)
-    text = html.escape(CLEAR_COMMAND[:i])
-
-    svg += f'<tspan x="{PROMPT_WIDTH}" opacity="0">'
-    svg += f'<set attributeName="opacity" to="1" begin="{t_start}s"/>'
-    svg += f'<set attributeName="opacity" to="0" begin="{t_end}s"/>'
-    svg += f'{text}</tspan>'
-
-# Final "clear" text
-svg += f'<tspan x="{PROMPT_WIDTH}" opacity="0">'
-svg += f'<set attributeName="opacity" to="1" begin="{clear_typed}s"/>'
-svg += f'{html.escape(CLEAR_COMMAND)}</tspan>'
-svg += '</text>\n\n'
-
-# Execute clear - hide everything after a brief pause
-clear_execute = clear_typed + 0.3
-
-svg += f'''
-<!-- Hide all content when clear executes -->
-<set attributeName="opacity" to="0" begin="{clear_execute}s" targetElement="terminal"/>
-'''
+# COMMENTED OUT: "clear" command - keeps terminal content visible
+# # "clear" command - typed character by character
+# svg += f'<text x="{LEFT_MARGIN}" y="{y + LINE_HEIGHT}" class="text">'
+# svg += f'<tspan class="prompt" opacity="0">'
+# svg += f'<set attributeName="opacity" to="1" begin="{clear_start}s"/>'
+# svg += '➜ </tspan>'
+#
+# # Type "clear" character by character
+# for i in range(1, len(CLEAR_COMMAND) + 1):
+#     t_start = clear_start + ((i-1) * CLEAR_SPEED)
+#     t_end = clear_start + (i * CLEAR_SPEED)
+#     text = html.escape(CLEAR_COMMAND[:i])
+#
+#     svg += f'<tspan x="{PROMPT_WIDTH}" opacity="0">'
+#     svg += f'<set attributeName="opacity" to="1" begin="{t_start}s"/>'
+#     svg += f'<set attributeName="opacity" to="0" begin="{t_end}s"/>'
+#     svg += f'{text}</tspan>'
+#
+# # Final "clear" text
+# svg += f'<tspan x="{PROMPT_WIDTH}" opacity="0">'
+# svg += f'<set attributeName="opacity" to="1" begin="{clear_typed}s"/>'
+# svg += f'{html.escape(CLEAR_COMMAND)}</tspan>'
+# svg += '</text>\n\n'
+#
+# # Execute clear - hide everything after a brief pause
+# clear_execute = clear_typed + 0.3
+#
+# svg += f'''
+# <!-- Hide all content when clear executes -->
+# <set attributeName="opacity" to="0" begin="{clear_execute}s" targetElement="terminal"/>
+# '''
 
 svg += '''
 </g>
