@@ -18,15 +18,20 @@
 <br/>
 
 <p align="center">
-  <em>"Automate everything, optimize relentlessly, deploy fearlessly"</em>
+  <em>"Code, ship, monitor, improve - repeat"</em>
 </p>
+
+<!-- Code, ship, monitor, improve - repeat
+Making deployments boring since 2022
+Containerize complexity, orchestrate simplicity
+Automate the mundane, secure the critical, optimize the rest -->
 
 <br/>
 
 <!-- Profile views counter -->
-<p align="center">
+<!-- <p align="center">
   <img src="https://komarev.com/ghpvc/?username=vishal-rath0d&label=Profile%20Views&color=D9BED1&style=flat-square" alt="Profile views" />
-</p>
+</p> -->
 
 <!-- Animated footer -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=footer" alt="footer"/>

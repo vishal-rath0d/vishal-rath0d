@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1930" width="900" height="1930">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 960" width="900" height="960">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&amp;display=swap');
 * { font-family: 'JetBrains Mono', monospace; font-size: 14px; }
@@ -11,7 +11,7 @@
 .cursor { animation: blink 0.8s infinite; }
 </style>
 
-<rect width="900" height="1930" fill="#1E1E1E" rx="8"/>
+<rect width="900" height="960" fill="#1E1E1E" rx="8"/>
 <rect width="900" height="40" fill="#2D2D2D" rx="8"/>
 <circle cx="20" cy="20" r="6" fill="#FF5F57"/>
 <circle cx="40" cy="20" r="6" fill="#FEBC2E"/>
@@ -95,92 +95,46 @@
 <text x="34" y="180" class="text" opacity="0"><set attributeName="opacity" to="1" begin="3.3s"/><tspan class="key">name:</tspan><tspan class="val"> Vishal Rathod</tspan></text>
 <text x="34" y="200" class="text" opacity="0"><set attributeName="opacity" to="1" begin="3.6s"/><tspan class="key">role:</tspan><tspan class="val"> DevOps Engineer</tspan></text>
 <text x="34" y="220" class="text" opacity="0"><set attributeName="opacity" to="1" begin="3.9s"/><tspan class="key">company:</tspan><tspan class="val"> SMS-Magic (Conversive)</tspan></text>
-<text x="34" y="240" class="text" opacity="0"><set attributeName="opacity" to="1" begin="4.2s"/><tspan class="key">experience:</tspan><tspan class="val"> ~3 years</tspan></text>
+<text x="34" y="240" class="text" opacity="0"><set attributeName="opacity" to="1" begin="4.2s"/><tspan class="key">experience:</tspan><tspan class="val"> 3 years</tspan></text>
 <text x="34" y="260" class="text" opacity="0"><set attributeName="opacity" to="1" begin="4.5s"/><tspan class="key">location:</tspan><tspan class="val"> Remote, India</tspan></text>
-<text x="34" y="280" class="text" opacity="0"><set attributeName="opacity" to="1" begin="4.8s"/><tspan class="key">email:</tspan><tspan class="val"> vishaljanusingrathod@gmail.com</tspan></text>
-<text x="34" y="300" class="text" opacity="0"><set attributeName="opacity" to="1" begin="5.1s"/><tspan class="key">phone:</tspan><tspan class="val"> +91 9765055747</tspan></text>
-<text x="34" y="320" class="text" opacity="0"><set attributeName="opacity" to="1" begin="5.4s"/><tspan class="key">linkedin:</tspan><tspan class="val"> linkedin.com/in/vishalrath0d</tspan></text>
-<text x="34" y="340" class="text" opacity="0"><set attributeName="opacity" to="1" begin="5.699999999999999s"/><tspan class="key">website:</tspan><tspan class="val"> vishal-rath0d.github.io</tspan></text>
-<text x="34" y="360" class="text" opacity="0"><set attributeName="opacity" to="1" begin="6.0s"/><tspan class="key">github:</tspan><tspan class="val"> github.com/vishal-rath0d</tspan></text>
-<text x="20" y="380" class="text" opacity="0"><set attributeName="opacity" to="1" begin="6.300000000000001s"/><tspan class="val"></tspan></text>
-<text x="20" y="400" class="text" opacity="0"><set attributeName="opacity" to="1" begin="6.6s"/><tspan class="key">spec:</tspan></text>
-<text x="34" y="420" class="text" opacity="0"><set attributeName="opacity" to="1" begin="6.9s"/><tspan class="key">achievements:</tspan></text>
-<text x="48" y="440" class="text" opacity="0"><set attributeName="opacity" to="1" begin="7.199999999999999s"/><tspan class="key">ci_cd:</tspan></text>
-<text x="62" y="460" class="text" opacity="0"><set attributeName="opacity" to="1" begin="7.5s"/><tspan class="val">- Built 20+ automated pipelines (Jenkins, GitLab CI)</tspan></text>
-<text x="62" y="480" class="text" opacity="0"><set attributeName="opacity" to="1" begin="7.800000000000001s"/><tspan class="val">- Reduced deployment time by 50%</tspan></text>
-<text x="62" y="500" class="text" opacity="0"><set attributeName="opacity" to="1" begin="8.1s"/><tspan class="val">- Reduced deployment errors by 30%</tspan></text>
-<text x="48" y="520" class="text" opacity="0"><set attributeName="opacity" to="1" begin="8.4s"/><tspan class="val"></tspan></text>
-<text x="48" y="540" class="text" opacity="0"><set attributeName="opacity" to="1" begin="8.7s"/><tspan class="key">containerization:</tspan></text>
-<text x="62" y="560" class="text" opacity="0"><set attributeName="opacity" to="1" begin="9.0s"/><tspan class="val">- Dockerized 20+ services on ECS (Fargate + EC2)</tspan></text>
-<text x="62" y="580" class="text" opacity="0"><set attributeName="opacity" to="1" begin="9.299999999999999s"/><tspan class="val">- Reduced environment setup time by 40%</tspan></text>
-<text x="62" y="600" class="text" opacity="0"><set attributeName="opacity" to="1" begin="9.6s"/><tspan class="val">- Led Fargate to ECS migrations</tspan></text>
-<text x="48" y="620" class="text" opacity="0"><set attributeName="opacity" to="1" begin="9.9s"/><tspan class="val"></tspan></text>
-<text x="48" y="640" class="text" opacity="0"><set attributeName="opacity" to="1" begin="10.2s"/><tspan class="key">infrastructure:</tspan></text>
-<text x="62" y="660" class="text" opacity="0"><set attributeName="opacity" to="1" begin="10.5s"/><tspan class="val">- Automated provisioning with CloudFormation &amp; Terraform</tspan></text>
-<text x="62" y="680" class="text" opacity="0"><set attributeName="opacity" to="1" begin="10.799999999999999s"/><tspan class="val">- Cut new environment setup time by 70%</tspan></text>
-<text x="62" y="700" class="text" opacity="0"><set attributeName="opacity" to="1" begin="11.1s"/><tspan class="val">- Built full AWS infra for Cube.js analytics (6+ services)</tspan></text>
-<text x="48" y="720" class="text" opacity="0"><set attributeName="opacity" to="1" begin="11.399999999999999s"/><tspan class="val"></tspan></text>
-<text x="48" y="740" class="text" opacity="0"><set attributeName="opacity" to="1" begin="11.7s"/><tspan class="key">cost_optimization:</tspan></text>
-<text x="62" y="760" class="text" opacity="0"><set attributeName="opacity" to="1" begin="12.0s"/><tspan class="val">- Reduced ECS cluster costs by 25%</tspan></text>
-<text x="62" y="780" class="text" opacity="0"><set attributeName="opacity" to="1" begin="12.299999999999999s"/><tspan class="val">- EC2 &amp; ECS instance right-sizing</tspan></text>
-<text x="62" y="800" class="text" opacity="0"><set attributeName="opacity" to="1" begin="12.6s"/><tspan class="val">- Graviton migration POC</tspan></text>
-<text x="48" y="820" class="text" opacity="0"><set attributeName="opacity" to="1" begin="12.899999999999999s"/><tspan class="val"></tspan></text>
-<text x="48" y="840" class="text" opacity="0"><set attributeName="opacity" to="1" begin="13.2s"/><tspan class="key">reliability:</tspan></text>
-<text x="62" y="860" class="text" opacity="0"><set attributeName="opacity" to="1" begin="13.5s"/><tspan class="val">- Improved incident response time by 40%</tspan></text>
-<text x="62" y="880" class="text" opacity="0"><set attributeName="opacity" to="1" begin="13.799999999999999s"/><tspan class="val">- Reduced MTTD and MTTR</tspan></text>
-<text x="62" y="900" class="text" opacity="0"><set attributeName="opacity" to="1" begin="14.1s"/><tspan class="val">- Implemented centralized logging (CloudWatch, BetterStack, Loggly)</tspan></text>
-<text x="48" y="920" class="text" opacity="0"><set attributeName="opacity" to="1" begin="14.399999999999999s"/><tspan class="val"></tspan></text>
-<text x="48" y="940" class="text" opacity="0"><set attributeName="opacity" to="1" begin="14.7s"/><tspan class="key">security:</tspan></text>
-<text x="62" y="960" class="text" opacity="0"><set attributeName="opacity" to="1" begin="15.0s"/><tspan class="val">- Enforced AWS WAF rules for API protection</tspan></text>
-<text x="62" y="980" class="text" opacity="0"><set attributeName="opacity" to="1" begin="15.299999999999999s"/><tspan class="val">- Implemented Redis-based rate limiting</tspan></text>
-<text x="62" y="1000" class="text" opacity="0"><set attributeName="opacity" to="1" begin="15.6s"/><tspan class="val">- Adopting DevSecOps practices</tspan></text>
-<text x="20" y="1020" class="text" opacity="0"><set attributeName="opacity" to="1" begin="15.899999999999999s"/><tspan class="val"></tspan></text>
-<text x="34" y="1040" class="text" opacity="0"><set attributeName="opacity" to="1" begin="16.2s"/><tspan class="key">skills:</tspan></text>
-<text x="48" y="1060" class="text" opacity="0"><set attributeName="opacity" to="1" begin="16.5s"/><tspan class="key">cloud:</tspan><tspan class="val"> AWS (ECS, EC2, S3, VPC, RDS, Lambda, API Gateway, WAF, CloudFormation)</tspan></text>
-<text x="48" y="1080" class="text" opacity="0"><set attributeName="opacity" to="1" begin="16.8s"/><tspan class="key">iac:</tspan><tspan class="val"> Terraform (POCs), CloudFormation (Production)</tspan></text>
-<text x="48" y="1100" class="text" opacity="0"><set attributeName="opacity" to="1" begin="17.1s"/><tspan class="key">cicd:</tspan><tspan class="val"> Jenkins, GitLab CI, Pipeline-as-Code, Blue/Green Deployments</tspan></text>
-<text x="48" y="1120" class="text" opacity="0"><set attributeName="opacity" to="1" begin="17.4s"/><tspan class="key">containers:</tspan><tspan class="val"> Docker, AWS ECS (Fargate + EC2), Kubernetes (EKS - learning)</tspan></text>
-<text x="48" y="1140" class="text" opacity="0"><set attributeName="opacity" to="1" begin="17.7s"/><tspan class="key">observability:</tspan><tspan class="val"> CloudWatch, BetterStack, Loggly, Prometheus, Grafana</tspan></text>
-<text x="48" y="1160" class="text" opacity="0"><set attributeName="opacity" to="1" begin="18.0s"/><tspan class="key">databases:</tspan><tspan class="val"> MySQL, MongoDB, Elasticsearch, Redis, RabbitMQ</tspan></text>
-<text x="48" y="1180" class="text" opacity="0"><set attributeName="opacity" to="1" begin="18.3s"/><tspan class="key">programming:</tspan><tspan class="val"> Python, Shell, Groovy, Go (basic), React</tspan></text>
-<text x="48" y="1200" class="text" opacity="0"><set attributeName="opacity" to="1" begin="18.6s"/><tspan class="key">security:</tspan><tspan class="val"> AWS WAF, Rate Limiting, DevSecOps (in progress)</tspan></text>
-<text x="20" y="1220" class="text" opacity="0"><set attributeName="opacity" to="1" begin="18.900000000000002s"/><tspan class="val"></tspan></text>
-<text x="34" y="1240" class="text" opacity="0"><set attributeName="opacity" to="1" begin="19.2s"/><tspan class="key">current_focus:</tspan></text>
-<text x="48" y="1260" class="text" opacity="0"><set attributeName="opacity" to="1" begin="19.5s"/><tspan class="val">- Kubernetes &amp; EKS (hands-on labs, cluster setup)</tspan></text>
-<text x="48" y="1280" class="text" opacity="0"><set attributeName="opacity" to="1" begin="19.8s"/><tspan class="val">- GitOps with ArgoCD (learning workflows)</tspan></text>
-<text x="48" y="1300" class="text" opacity="0"><set attributeName="opacity" to="1" begin="20.1s"/><tspan class="val">- DevSecOps practices (CI security, secrets management)</tspan></text>
-<text x="48" y="1320" class="text" opacity="0"><set attributeName="opacity" to="1" begin="20.400000000000002s"/><tspan class="val">- Advanced observability (Prometheus &amp; Grafana setup)</tspan></text>
-<text x="20" y="1340" class="text" opacity="0"><set attributeName="opacity" to="1" begin="20.7s"/><tspan class="val"></tspan></text>
-<text x="34" y="1360" class="text" opacity="0"><set attributeName="opacity" to="1" begin="21.0s"/><tspan class="key">education:</tspan></text>
-<text x="48" y="1380" class="text" opacity="0"><set attributeName="opacity" to="1" begin="21.3s"/><tspan class="val">- degree: PG-DAC (Advanced Computing)</tspan></text>
-<text x="62" y="1400" class="text" opacity="0"><set attributeName="opacity" to="1" begin="21.6s"/><tspan class="key">institution:</tspan><tspan class="val"> Sunbeam Institute, Pune</tspan></text>
-<text x="62" y="1420" class="text" opacity="0"><set attributeName="opacity" to="1" begin="21.900000000000002s"/><tspan class="key">year:</tspan><tspan class="val"> 2022</tspan></text>
-<text x="62" y="1440" class="text" opacity="0"><set attributeName="opacity" to="1" begin="22.2s"/><tspan class="key">gpa:</tspan><tspan class="val"> 7.3/10</tspan></text>
-<text x="48" y="1460" class="text" opacity="0"><set attributeName="opacity" to="1" begin="22.5s"/><tspan class="val"></tspan></text>
-<text x="48" y="1480" class="text" opacity="0"><set attributeName="opacity" to="1" begin="22.8s"/><tspan class="val">- degree: B.Tech in Biotechnology</tspan></text>
-<text x="62" y="1500" class="text" opacity="0"><set attributeName="opacity" to="1" begin="23.1s"/><tspan class="key">institution:</tspan><tspan class="val"> K.K. Wagh College, Nashik</tspan></text>
-<text x="62" y="1520" class="text" opacity="0"><set attributeName="opacity" to="1" begin="23.400000000000002s"/><tspan class="key">year:</tspan><tspan class="val"> 2021</tspan></text>
-<text x="62" y="1540" class="text" opacity="0"><set attributeName="opacity" to="1" begin="23.7s"/><tspan class="key">gpa:</tspan><tspan class="val"> 8.3/10</tspan></text>
-<text x="20" y="1560" class="text" opacity="0"><set attributeName="opacity" to="1" begin="24.0s"/><tspan class="val"></tspan></text>
-<text x="34" y="1580" class="text" opacity="0"><set attributeName="opacity" to="1" begin="24.3s"/><tspan class="key">interests:</tspan></text>
-<text x="48" y="1600" class="text" opacity="0"><set attributeName="opacity" to="1" begin="24.6s"/><tspan class="val">- DevSecOps &amp; GitOps</tspan></text>
-<text x="48" y="1620" class="text" opacity="0"><set attributeName="opacity" to="1" begin="24.900000000000002s"/><tspan class="val">- FinOps (cost optimization)</tspan></text>
-<text x="48" y="1640" class="text" opacity="0"><set attributeName="opacity" to="1" begin="25.2s"/><tspan class="val">- Multi-cloud (Azure, GCP)</tspan></text>
-<text x="48" y="1660" class="text" opacity="0"><set attributeName="opacity" to="1" begin="25.5s"/><tspan class="val">- Automation &amp; scripting</tspan></text>
-<text x="20" y="1680" class="text" opacity="0"><set attributeName="opacity" to="1" begin="25.8s"/><tspan class="val"></tspan></text>
-<text x="34" y="1700" class="text" opacity="0"><set attributeName="opacity" to="1" begin="26.1s"/><tspan class="key">contact:</tspan></text>
-<text x="48" y="1720" class="text" opacity="0"><set attributeName="opacity" to="1" begin="26.400000000000002s"/><tspan class="key">email:</tspan><tspan class="val"> vishaljanusingrathod@gmail.com</tspan></text>
-<text x="48" y="1740" class="text" opacity="0"><set attributeName="opacity" to="1" begin="26.7s"/><tspan class="key">linkedin:</tspan><tspan class="val"> linkedin.com/in/vishalrath0d</tspan></text>
-<text x="48" y="1760" class="text" opacity="0"><set attributeName="opacity" to="1" begin="27.0s"/><tspan class="key">website:</tspan><tspan class="val"> vishal-rath0d.github.io</tspan></text>
-<text x="48" y="1780" class="text" opacity="0"><set attributeName="opacity" to="1" begin="27.3s"/><tspan class="key">github:</tspan><tspan class="val"> github.com/vishal-rath0d</tspan></text>
+<text x="20" y="280" class="text" opacity="0"><set attributeName="opacity" to="1" begin="4.8s"/><tspan class="val"></tspan></text>
+<text x="20" y="300" class="text" opacity="0"><set attributeName="opacity" to="1" begin="5.1s"/><tspan class="key">spec:</tspan></text>
+<text x="34" y="320" class="text" opacity="0"><set attributeName="opacity" to="1" begin="5.4s"/><tspan class="key">highlights:</tspan></text>
+<text x="48" y="340" class="text" opacity="0"><set attributeName="opacity" to="1" begin="5.699999999999999s"/><tspan class="val">- Built 20+ CI/CD pipelines (Jenkins, GitLab CI)</tspan></text>
+<text x="48" y="360" class="text" opacity="0"><set attributeName="opacity" to="1" begin="6.0s"/><tspan class="val">- Containerized 20+ services with Docker &amp; ECS</tspan></text>
+<text x="48" y="380" class="text" opacity="0"><set attributeName="opacity" to="1" begin="6.300000000000001s"/><tspan class="val">- Reduced infrastructure costs by 25%</tspan></text>
+<text x="48" y="400" class="text" opacity="0"><set attributeName="opacity" to="1" begin="6.6s"/><tspan class="val">- Improved incident response time by 40%</tspan></text>
+<text x="20" y="420" class="text" opacity="0"><set attributeName="opacity" to="1" begin="6.9s"/><tspan class="val"></tspan></text>
+<text x="34" y="440" class="text" opacity="0"><set attributeName="opacity" to="1" begin="7.199999999999999s"/><tspan class="key">skills:</tspan></text>
+<text x="48" y="460" class="text" opacity="0"><set attributeName="opacity" to="1" begin="7.5s"/><tspan class="key">cloud:</tspan><tspan class="val"> AWS (ECS, EC2, S3, Lambda, CloudFormation)</tspan></text>
+<text x="48" y="480" class="text" opacity="0"><set attributeName="opacity" to="1" begin="7.800000000000001s"/><tspan class="key">iac:</tspan><tspan class="val"> Terraform, CloudFormation</tspan></text>
+<text x="48" y="500" class="text" opacity="0"><set attributeName="opacity" to="1" begin="8.1s"/><tspan class="key">cicd:</tspan><tspan class="val"> Jenkins, GitLab CI, Blue/Green Deployments</tspan></text>
+<text x="48" y="520" class="text" opacity="0"><set attributeName="opacity" to="1" begin="8.4s"/><tspan class="key">containers:</tspan><tspan class="val"> Docker, ECS, Kubernetes (learning)</tspan></text>
+<text x="48" y="540" class="text" opacity="0"><set attributeName="opacity" to="1" begin="8.7s"/><tspan class="key">observability:</tspan><tspan class="val"> CloudWatch, Prometheus, Grafana</tspan></text>
+<text x="48" y="560" class="text" opacity="0"><set attributeName="opacity" to="1" begin="9.0s"/><tspan class="key">programming:</tspan><tspan class="val"> Python, Shell, Groovy</tspan></text>
+<text x="20" y="580" class="text" opacity="0"><set attributeName="opacity" to="1" begin="9.299999999999999s"/><tspan class="val"></tspan></text>
+<text x="34" y="600" class="text" opacity="0"><set attributeName="opacity" to="1" begin="9.6s"/><tspan class="key">current_focus:</tspan></text>
+<text x="48" y="620" class="text" opacity="0"><set attributeName="opacity" to="1" begin="9.9s"/><tspan class="val">- Kubernetes &amp; EKS</tspan></text>
+<text x="48" y="640" class="text" opacity="0"><set attributeName="opacity" to="1" begin="10.2s"/><tspan class="val">- GitOps with ArgoCD</tspan></text>
+<text x="48" y="660" class="text" opacity="0"><set attributeName="opacity" to="1" begin="10.5s"/><tspan class="val">- DevSecOps practices</tspan></text>
+<text x="20" y="680" class="text" opacity="0"><set attributeName="opacity" to="1" begin="10.799999999999999s"/><tspan class="val"></tspan></text>
+<text x="34" y="700" class="text" opacity="0"><set attributeName="opacity" to="1" begin="11.1s"/><tspan class="key">education:</tspan></text>
+<text x="48" y="720" class="text" opacity="0"><set attributeName="opacity" to="1" begin="11.399999999999999s"/><tspan class="val">- PG-DAC (Advanced Computing) - 2022</tspan></text>
+<text x="48" y="740" class="text" opacity="0"><set attributeName="opacity" to="1" begin="11.7s"/><tspan class="val">- B.Tech Biotechnology - 2021</tspan></text>
+<text x="20" y="760" class="text" opacity="0"><set attributeName="opacity" to="1" begin="12.0s"/><tspan class="val"></tspan></text>
+<text x="34" y="780" class="text" opacity="0"><set attributeName="opacity" to="1" begin="12.299999999999999s"/><tspan class="key">contact:</tspan></text>
+<text x="48" y="800" class="text" opacity="0"><set attributeName="opacity" to="1" begin="12.6s"/><tspan class="key">email:</tspan><tspan class="val"> vishaljanusingrathod@gmail.com</tspan></text>
+<text x="48" y="820" class="text" opacity="0"><set attributeName="opacity" to="1" begin="12.899999999999999s"/><tspan class="key">linkedin:</tspan><tspan class="val"> linkedin.com/in/vishalrath0d</tspan></text>
+<text x="48" y="840" class="text" opacity="0"><set attributeName="opacity" to="1" begin="13.2s"/><tspan class="key">github:</tspan><tspan class="val"> github.com/vishal-rath0d</tspan></text>
+<text x="48" y="860" class="text" opacity="0"><set attributeName="opacity" to="1" begin="13.5s"/><tspan class="key">website:</tspan><tspan class="val"> vishal-rath0d.github.io</tspan></text>
 
-<text x="20" y="1820" class="text" opacity="0"><set attributeName="opacity" to="1" begin="27.6s"/><set attributeName="opacity" to="0" begin="47.6s"/><tspan class="prompt">➜ </tspan><tspan class="prompt cursor">█</tspan></text>
+<text x="20" y="900" class="text" opacity="0"><set attributeName="opacity" to="1" begin="13.799999999999999s"/><set attributeName="opacity" to="0" begin="33.8s"/><tspan class="prompt">➜ </tspan><tspan class="prompt cursor">█</tspan></text>
 
-<text x="20" y="1820" class="text"><tspan class="prompt" opacity="0"><set attributeName="opacity" to="1" begin="48.1s"/>➜ </tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="48.1s"/><set attributeName="opacity" to="0" begin="48.2s"/>c</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="48.2s"/><set attributeName="opacity" to="0" begin="48.300000000000004s"/>cl</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="48.300000000000004s"/><set attributeName="opacity" to="0" begin="48.4s"/>cle</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="48.4s"/><set attributeName="opacity" to="0" begin="48.5s"/>clea</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="48.5s"/><set attributeName="opacity" to="0" begin="48.6s"/>clear</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="48.6s"/>clear</tspan></text>
+<text x="20" y="900" class="text"><tspan class="prompt" opacity="0"><set attributeName="opacity" to="1" begin="34.3s"/>➜ </tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="34.3s"/><set attributeName="opacity" to="0" begin="34.4s"/>c</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="34.4s"/><set attributeName="opacity" to="0" begin="34.5s"/>cl</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="34.5s"/><set attributeName="opacity" to="0" begin="34.599999999999994s"/>cle</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="34.599999999999994s"/><set attributeName="opacity" to="0" begin="34.699999999999996s"/>clea</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="34.699999999999996s"/><set attributeName="opacity" to="0" begin="34.8s"/>clear</tspan><tspan x="50" opacity="0"><set attributeName="opacity" to="1" begin="34.8s"/>clear</tspan></text>
 
 
 <!-- Hide all content when clear executes -->
-<set attributeName="opacity" to="0" begin="48.9s" targetElement="terminal"/>
+<set attributeName="opacity" to="0" begin="35.099999999999994s" targetElement="terminal"/>
 
 </g>
 
@@ -189,8 +143,8 @@
     var svg = document.querySelector('svg');
     setTimeout(function() {
       svg.setCurrentTime(0);
-      setInterval(function() { svg.setCurrentTime(0); }, 49400);
-    }, 49400);
+      setInterval(function() { svg.setCurrentTime(0); }, 35599);
+    }, 35599);
   })();
 ]]></script>
 </svg>
