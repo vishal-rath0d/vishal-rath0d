@@ -39,6 +39,9 @@ Automate the mundane, secure the critical, optimize the rest -->
   <a href="https://vishal-rath0d.github.io">
     <img src="https://img.shields.io/badge/Website-FF69B4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
   </a>
+  <a href="https://drive.google.com/file/d/1OeEnMCsl-AJ495mmvPa3623A9X1RoKur/view?usp=drive_link">
+    <img src="https://img.shields.io/badge/Resume-4682B4?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Resume"/>
+  </a>
 </p>
 
 <!-- Profile views counter -->
