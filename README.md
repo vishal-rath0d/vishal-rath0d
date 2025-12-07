@@ -28,6 +28,19 @@ Automate the mundane, secure the critical, optimize the rest -->
 
 <br/>
 
+<!-- Connect with me -->
+<p align="center">
+  <a href="https://linkedin.com/in/vishalrath0d">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/vishal-rath0d">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://vishal-rath0d.github.io">
+    <img src="https://img.shields.io/badge/Website-FF69B4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
+  </a>
+</p>
+
 <!-- Profile views counter -->
 <!-- <p align="center">
   <img src="https://komarev.com/ghpvc/?username=vishal-rath0d&label=Profile%20Views&color=D9BED1&style=flat-square" alt="Profile views" />
